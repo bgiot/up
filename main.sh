@@ -22,6 +22,9 @@ steps(){
     step "Check: Internet connection"
     test_internet_connection
 
+    step "Setup: XCode"
+    install_xcode
+    
     step "Install: HomeBrew"
     install_home_brew
 
