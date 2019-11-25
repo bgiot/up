@@ -22,12 +22,6 @@ steps(){
     step "Check: Internet connection"
     test_internet_connection
 
-    step "Setup: SSH key"
-    setup_ssh_key
-
-    step "Setup: XCode"
-    install_xcode
-
     step "Install: HomeBrew"
     install_home_brew
 
@@ -39,12 +33,6 @@ steps(){
 
     step "Tap: Casks"
     install_brew_packages "tap" $(pwd)/packages/taps.txt
-
-    step "Install: FZF fuzzy search"
-    install_fzf
-
-    step "Install: Nodejs"
-    install_nodejs
 
     step "Install: Oh My Zsh"
     install_zsh
