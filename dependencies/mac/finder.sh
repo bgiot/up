@@ -9,9 +9,6 @@
 defaults write com.apple.finder QuitMenuItem -bool true
 print_success "Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons"
 
-defaults write com.apple.finder AppleShowAllFiles -bool true
-print_success "Finder: show hidden files by default"
-
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 print_success "Finder: show all filename extensions"
 

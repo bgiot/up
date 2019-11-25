@@ -5,10 +5,7 @@
 
 export ZSH=$HOME/.oh-my-zsh
 
-POWERLEVEL9K_MODE="nerdfont-complete"
-ZSH_THEME="powerlevel9k/powerlevel9k"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir_writable dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs history)
+ZSH_THEME="agnoster"
 
 plugins=(
     git

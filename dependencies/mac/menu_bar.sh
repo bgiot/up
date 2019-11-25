@@ -10,7 +10,6 @@ defaults write com.apple.systemuiserver menuExtras -array   \
     "/System/Library/CoreServices/Menu Extras/Volume.menu"  \
     "/System/Library/CoreServices/Menu Extras/AirPort.menu" \
     "/System/Library/CoreServices/Menu Extras/Battery.menu" \
-    "/System/Library/CoreServices/Menu Extras/VPN.menu"     \
     "/System/Library/CoreServices/Menu Extras/Bluetooth.menu";
 
 print_success "Menubar: adds Airport, Bluetooth, Battery, Volume"

@@ -41,7 +41,6 @@ steps(){
     install_zsh
 
     step "Install: Zsh plugins"
-    install_powerlevel9k
     install_syntax_highlight
     install_autocomplete
 
